@@ -1,0 +1,56 @@
+body {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(18%, #96192e), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #96192e 18%, #00d4ff 100%);
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+header video {
+  margin-top: 5%;
+}
+
+header span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+aside {
+  width: 10vw;
+}
+
+aside p {
+  background-color: #815608;
+  margin: 1px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer {
+  border: solid 3px #815608;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
